@@ -1,0 +1,9 @@
+audio_generation:
+  default_music_provider: local_music
+  default_sfx_provider: local_sfx
+  music_model: facebook/musicgen-small
+image_generation:
+  default_image_provider: gemini_image
+text_generation:
+  default_provider: gemini_text
+  model: gemini-2.0-flash-lite

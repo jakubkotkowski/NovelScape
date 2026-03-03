@@ -1,0 +1,105 @@
+# =========================
+# 1. GLOBAL / OS FILES
+# =========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor config
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# =========================
+# 2. BACKEND (PYTHON / FASTAPI)
+# =========================
+# Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+.venv/
+env/
+backend/venv/
+
+# Environment Variables (Security Critical)
+.env
+.env.*
+backend/.env
+backend/.env.*
+
+# Logs
+logs/
+*.log
+
+# 🛑 GENERATED ASSETS (Crucial for your app)
+# Ignore all generated content folders
+backend/generated_audio/
+backend/generated_images/
+backend/generated_music/
+backend/generated_mixes/
+
+# Ignore loose media files in root or backend root
+*.wav
+*.mp3
+*.png
+*.jpg
+*.jpeg
+
+# Database (if using SQLite locally)
+*.sqlite3
+*.db
+
+# Docker
+.dockerignore
+
+# =========================
+# 3. FRONTEND (NEXT.JS / REACT)
+# =========================
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Next.js build output
+.next/
+frontend/.next/
+out/
+frontend/out/
+
+# Production build output
+build/
+dist/
+frontend/build/
+frontend/dist/
+
+# Frontend Environment variables
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Vercel
+.vercel
+frontend/.vercel
+
+# Typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# Testing
+coverage/
+.nyc_output/
